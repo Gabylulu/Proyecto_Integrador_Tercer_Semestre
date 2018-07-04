@@ -1,0 +1,168 @@
+* { margin: auto; padding: 0; font-family: arial;  }
+
+/*body: cuerpo de la página*/
+body { background-color: #e6e6e6; }
+
+.centrado{
+    display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*cabecera*/
+#header { background-color: #fffafa;
+
+margin:0;
+with:500px;
+font: bold 200px arial, helvetica, sans-serif; }
+
+
+#titulo h1      {
+margin: 3;
+padding: 5px;
+font: bold 50px arial, helvetica, sans-serif;
+color: #CC66CC;
+}
+
+#cabecera h1      {
+margin: 0;
+padding: 75px;
+font: bold 200px arial, helvetica, sans-serif;
+color: black;
+}
+
+
+header h1 { text-align: center; color: navy; padding: 0.5em; font-size: 1.5em; }
+header h2 { text-align: center; color: #663366; padding: 0.5em; font-size: 1.2em; }
+
+/*navegador*/
+nav { background-color: #005853; min-height: 2em; }
+nav p { display: inline; }
+nav a:link, nav a:visited { text-decoration: none; color: #f1f16c; background-color: #027244; margin: 0.3em; }
+nav a:hover, nav a:active { text-decoration: none; color: #9bf5ff; background-color: #543683; margin: 0.3em; }
+
+/*principal: section:*/
+section { width: 75%; background-color: #deeebc; float: left; }
+section h1 { text-align: center; padding: 0.5em; color: olive; font-size: 1.4em; }
+section h2 { text-align: center; padding: 0.5em; color: grey; font-size: 1.2em; }
+section h3 { text-align: left; padding: 0.3em 3em; color: #663366; font-size: 1em;  }
+
+/*artículos: article*/
+article { margin: 0.5em 3em; padding: 0.5em 2em; background-color: white; border: 3px double aqua; }
+article p { text-align: justify; }
+
+/*propaganda: aside*/
+aside { width: 25%; float: right; }
+
+video { width: 100%; 
+
+ }
+
+/*pie de página: footer*/
+footer { clear: both; background-color: #666; }
+footer h1 { text-align: center; font-size: 1.4em; color: navy; padding: 0.7em; }
+footer h2 { text-align: center; font-size: 1em; padding: 0.4em; }
+footer a { text-decoration: none; color: green; }
+
+figure { 
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+img{ 
+
+    }
+
+nav{
+    /*Bordes redondeados*/
+    -webkit-border-radius:10px;/*Para chrome y Safari*/
+    -moz-border-radius:10px;/*Para Firefox*/
+    -o-border-radius:10px;/*Para Opera*/
+    border-radius:10px;/*El estandar por defecto*/
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#CCC));/*Para chrome y Safari*/
+    /*Degradados*/
+    background-image: -moz-linear-gradient(top center, #FFF, #CCC);/*Para Firefox*/
+    background-image: -o-linear-gradient(top, #FFF, #CCC);/*Para Opera*/
+    background-image: linear-gradient(top, #FFF, #CCC);/*El estandar por defecto*/
+    overflow:hidden;
+    padding:10px;
+    width:950px;
+}
+
+/*nav ul{
+    list-style:none;
+    margin:0 10px 0 10px;
+    padding:0;
+}*/
+
+nav ul li{
+    /*Bordes redondeados*/
+    -webkit-border-radius:5px;/*Chrome y Safari*/
+    border-radius:5px;/*Estandar por defecto*/
+    float:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight:normal;
+    margin-right:10px;
+    text-align:center;
+    /*Sombras para texto, los mismos parametros que box-shadow*/
+    
+}
+
+nav ul li:hover{
+    /*Degradado de fondo*/
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to( #E3E3E3));/*Chrome y Safari*/
+    
+   
+    background-image: linear-gradient(top, #FFF, #E3E3E3);/*Estandar por defecto*/
+    /*Sombras*/
+    -webkit-box-shadow:  1px -1px 0px #999;/*Chrome y Safari*/
+    box-shadow:  1px -1px 0px #999;/*Estandar por defecto*/
+    border:1px solid #E3E3E3;
+}
+
+nav ul li a{
+    color:#999;
+    display:block;
+    padding:10px;
+    text-decoration:none;
+    /*Transiciones*/
+    -webkit-transition: 0.4s linear all;
+    -moz-transition: 0.4s linear all;
+    -o-transition: 0.4s linear all;
+    transition: 0.4s linear all;
+}
+nav ul li a:hover {
+    color:#000;
+}
+
+
+.btn {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.campus {background-color: #4CAF50;} /* Green */
+.campus:hover {background-color: #ddd;}
+
+.formulario {background-color: #2196F3;} /* Blue */
+.formulario:hover {background: #ddd;}
+
+.carreras {background-color: #ff9800;} /* Orange */
+.carreras:hover {background: #ddd;}
+
+.notocias {background-color: #f7f740; color: black;} /* Gray */ 
+.notocias:hover {background: #ddd;}
+.leer {background-color: #f7f740; color: black;} /* Gray */ 
+.leer:hover {background: #ddd;}
+
+#noticia{
+width: 400px;
+height: 300px;
+
+    }
